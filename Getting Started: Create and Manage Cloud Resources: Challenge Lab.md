@@ -5,14 +5,7 @@
 
 :purple_heart: Run the following from the Cloud Terminal:
 
-:blue_heart: gcloud compute instances create nucleus-jumphost \
-          --network nucleus-vpc \
-          --zone us-east1-b  \
-          --machine-type f1-micro  \
-          --image-family debian-9  \
-          --image-project debian-cloud \
-          --scopes cloud-platform \
-          --no-address
+💙 # NAVIGATION BAR => COMPUTE ENGINE => VM INSTANCE => CREATE VM INSTANCE
 ## Task 2: Create a Kubernetes service cluster
 
 :purple_heart: Run the following from the Cloud Terminal:
