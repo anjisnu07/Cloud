@@ -1,4 +1,6 @@
-# Task 1: Create a project jumphost instance
+# Getting Started: Create and Manage Cloud Resources: Challenge Lab
+
+## Task 1: Create a project jumphost instance
 
 :purple_heart: Run the following from the Cloud Terminal:
 
@@ -10,7 +12,7 @@
           --image-project debian-cloud \
           --scopes cloud-platform \
           --no-address
-# Task 2: Create a Kubernetes service cluster
+## Task 2: Create a Kubernetes service cluster
 
 :purple_heart: Run the following from the Cloud Terminal:
 
@@ -29,7 +31,7 @@
           --type=LoadBalancer \
           --port 8080
           
-# Task 3: Setup an HTTP load balancer
+## Task 3: Setup an HTTP load balancer
 
 :purple_heart: Run the following from the Cloud Terminal:
 
