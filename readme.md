@@ -1,5 +1,6 @@
 # Task 1: Create a project jumphost instance
-Run the following from the Cloud Terminal:
+
+:purple_heart: Run the following from the Cloud Terminal:
 gcloud compute instances create nucleus-jumphost \
           --network nucleus-vpc \
           --zone us-east1-b  \
@@ -10,7 +11,7 @@ gcloud compute instances create nucleus-jumphost \
           --no-address
 # Task 2: Create a Kubernetes service cluster
 
-Run the following from the Cloud Terminal:
+:purple_heart: Run the following from the Cloud Terminal:
 gcloud container clusters create nucleus-backend \
           --num-nodes 1 \
           --network nucleus-vpc \
@@ -27,7 +28,8 @@ kubectl expose deployment hello-server \
           --port 8080
           
 # Task 3: Setup an HTTP load balancer
-Run the following from the Cloud Terminal:
+
+:purple_heart: Run the following from the Cloud Terminal:
 cat << EOF > startup.sh
 #! /bin/bash
 apt-get update
