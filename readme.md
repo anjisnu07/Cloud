@@ -1,4 +1,4 @@
-#Task 1: Create a project jumphost instance
+# Task 1: Create a project jumphost instance
 Run the following from the Cloud Terminal:
 gcloud compute instances create nucleus-jumphost \
           --network nucleus-vpc \
@@ -8,7 +8,8 @@ gcloud compute instances create nucleus-jumphost \
           --image-project debian-cloud \
           --scopes cloud-platform \
           --no-address
-Task 2: Create a Kubernetes service cluster
+# Task 2: Create a Kubernetes service cluster
+
 Run the following from the Cloud Terminal:
 gcloud container clusters create nucleus-backend \
           --num-nodes 1 \
@@ -24,7 +25,8 @@ kubectl create deployment hello-server \
 kubectl expose deployment hello-server \
           --type=LoadBalancer \
           --port 8080
-#Task 3: Setup an HTTP load balancer
+          
+# Task 3: Setup an HTTP load balancer
 Run the following from the Cloud Terminal:
 cat << EOF > startup.sh
 #! /bin/bash
@@ -46,7 +48,7 @@ gcloud compute instance-groups managed create web-server-group \
           --template web-server-template \
           --region us-east1
 
-gcloud compute firewall-rules create web-server-firewall \
+gcloud compute firewall-rules create Firewall rule \
           --allow tcp:80 \
           --network nucleus-vpc
 
