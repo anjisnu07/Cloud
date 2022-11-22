@@ -3,9 +3,7 @@
 
 ## Task 1: Create a project jumphost instance
 
-:purple_heart: Run the following from the Cloud Terminal:
-
-💙 # NAVIGATION BAR => COMPUTE ENGINE => VM INSTANCE => CREATE VM INSTANCE
+💙  NAVIGATION BAR => COMPUTE ENGINE => VM INSTANCE => CREATE VM INSTANCE
 ## Task 2: Create a Kubernetes service cluster
 
 :purple_heart: Run the following from the Cloud Terminal:
