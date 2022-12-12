@@ -8,6 +8,7 @@
 
 :purple_heart: Run the following from the Cloud Terminal:
 
+:blue_heart: gcloud config set compute/zone us-east1-b
 :blue_heart: gcloud container clusters create nucleus-backend \
           --num-nodes 1 \
           --network nucleus-vpc \
